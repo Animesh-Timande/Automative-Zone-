@@ -1,0 +1,74 @@
+/* login page */
+
+.loginpage {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 40px;
+   margin-left: 150px;
+   margin-bottom: 150px;
+   border-radius: 40px;
+   border-color: black;
+   border: 2px solid black;
+   width: 121vh;
+
+}
+
+.box {
+   background-color: rgb(227, 247, 247);
+   left: 50px;
+   top: 100px;
+   border-radius: 0px 40px 40px 0px;
+
+}
+
+.banner {
+   height: 60vh;
+   width: 50vh;
+   background-color: rgb(227, 247, 247);
+   border-radius: 40px 0px 0px 40px;
+
+}
+
+.banner img {
+   position: absolute;
+   left: 200px;
+   top: 90px;
+   border-radius: 50px;
+
+}
+
+.btn button {
+   width: 300px;
+   height: 40px;
+   text-align: center;
+   background-color: orange;
+   border-radius: 10px;
+
+
+}
+
+.cross i {
+   position: absolute;
+   left: 840px;
+   top: 60px;
+   font-size: 20px;
+   opacity: o.60;
+   cursor: pointer;
+}
+
+.cross i:hover {
+   font-size: 30px;
+   opacity: 1;
+   color: red;
+}
+
+.info {
+   opacity: 0.5
+}
+
+.user input {
+   width: 300px;
+   height: 40px;
+   border-radius: 10px;
+
+}
