@@ -1,0 +1,176 @@
+* {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+.main_box {
+  background: url(https://wallpapers.com/images/hd/1920-x-1080-car-t3nh4dcc0pcwbjjl.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+
+span p {
+  text-align: center;
+  font-style: italic;
+  animation: mymove 5s infinite;
+}
+
+.btn_one {
+  color: rgb(207, 200, 200);
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  line-height: 60px;
+  cursor: pointer;
+
+}
+
+.sidebar_menu {
+  position: fixed;
+  left: -320px;
+  height: 100vh;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(168, 163, 164, 0.8);
+  line-height: 40px;
+
+}
+
+.logo {
+  position: absolute;
+  width: 280px;
+  line-height: 40px;
+  font-size: 25px;
+
+}
+
+.logo a {
+  position: absolute;
+  width: 200px;
+  left: 50px;
+  color: aqua;
+  text-decoration: none;
+
+}
+
+.menu {
+  position: absolute;
+  width: 280px;
+  top: 50px;
+  color: rgb(177, 210, 243);
+  padding: 10px;
+
+}
+
+.sidebar_menu .btn_two i {
+  font-size: 30px;
+  color: white;
+  line-height: 60px;
+  position: absolute;
+  left: 260px;
+  cursor: pointer;
+}
+
+.menu a {
+  color: rgb(177, 210, 243);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.social_media {
+  position: absolute;
+  bottom: 128px;
+  margin-left: 10px;
+
+}
+
+.social_media a {
+  padding: 5px;
+  color: rgb(177, 210, 243);
+  opacity: 0.5;
+}
+
+#check {
+  display: none;
+}
+
+.btn_one i:hover {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.btn_two i:hover {
+  font-size: 35px;
+  color: red;
+}
+
+.menu li:hover {
+  box-shadow: 0 0 8px rgba(171, 216, 48, 0.918);
+  font-size: 20px;
+}
+
+.social_media a:hover {
+  opacity: 1;
+  transform: scale(1.8);
+  font-size: 20px;
+}
+
+#check:checked~.sidebar_menu {
+  left: 0px;
+}
+
+#check:checked~.btn_one {
+  opacity: 0;
+}
+
+.nevagation {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.heading img {
+  width: 80px;
+  /* margin: 5px 30px 0px 15px; */
+}
+
+.reg {
+  position: absolute;
+  right: 20px;
+  /* margin-top: 15px; */
+}
+
+.reg a {
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+}
+
+.searchbar {
+  position: absolute;
+  right: 200px;
+  flex-grow: 40px;
+  /* margin-top:15px; */
+
+}
+
+.heading {
+  color: rgb(21, 27, 27);
+  text-decoration: underline dotted rgb(158, 65, 31);
+  font-weight: 400;
+  font-size: 60px;
+  font-style: oblique;
+  /* margin: 5px 30px 0px 5px; */
+
+}
+
+.searchbar :hover {
+  font-size: 15px;
+}
+
+.reg a:hover {
+  font-size: 20px;
+  color: rgb(211, 20, 20);
+}
